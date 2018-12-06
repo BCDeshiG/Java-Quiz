@@ -99,7 +99,7 @@ class quiz
 
 		for (int qNum=0; qNum < numQuestions; qNum++) // Adds each question and details to record
 		{
-			qaList[qNum] = new QnA(); // Needed to avoid NullPointerException
+			qaList[qNum] = new QnA();
 			setQ(qaList[qNum], dataList[qNum][0]);
 			setLVL(qaList[qNum], dataList[qNum][1]);
 			setAns(qaList[qNum], dataList[qNum][2]);
@@ -207,7 +207,7 @@ class quiz
 			System.out.println("Perfect!");
 			if (quizLength == getLength(qBank))
 			{
-				String prizeLocation = "prize.txt";
+				String prizeLocation = "prize.txt"; // Not really a prize, just some rudimentary ASCII art
 				System.out.println("Find your reward in " + prizeLocation);
 				prize(prizeLocation);
 			}
