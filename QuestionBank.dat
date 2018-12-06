@@ -17,3 +17,9 @@ Which of these is NOT featured in a real Homeopathic remedy?,3,An Intel CPU,An I
 What common Bacterium causes food poisoning?,1,Salmonella,HIV,Salmonella,Malaria
 Where in the world did the food dish 'Biryani' originate?,2,Indian subcontinent,Middle East,Central Africa,Indian subcontinent
 # END OF QUESTIONS
+
+# FORMAT BELOW
+Question (String),Difficulty Level (integer),Correct Answer (String),Option A (String),Option B (String),Option C (String)
+This is an example question,4,Bleh,Bleh,Noot,Foo
+# NOTE - Spaces are allowed in the Strings but not commas (use semi-colon instead).
+# ALSO NOTE - Do NOT put a space after comma as it will not register properly.
